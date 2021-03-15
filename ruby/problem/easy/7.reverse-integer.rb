@@ -8,10 +8,7 @@
 # @param {Integer} x
 # @return {Integer}
 def reverse(x)
-  result = ""
-  x.to_s.chars.reverse_each {|s|
-    result = result + s
-  }
+  result = x.to_s.chars.reverse.join
   i = result.to_i
   if x < 0 then
     return 0 if -(i) < -2147483648
