@@ -1,3 +1,5 @@
+vendor
+.gradle
 java/.gradle
 java/bin
 java/build
