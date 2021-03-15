@@ -1,7 +1,6 @@
 GIT
   remote: https://github.com/areph/guard-gradle
-  revision: 9de2a4b88f14793c4278c0c9f2e6ebe16989e7a6
-  branch: feature/guard-version-to-2.16.2
+  revision: 71a75e11f89c35d1df60515b2857761b40286c04
   specs:
     guard-gradle (0.5.0)
       guard (~> 2.16.2)
