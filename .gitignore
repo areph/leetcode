@@ -1,3 +1,5 @@
 java/.gradle
 java/bin
 java/build
+
+ruby/spec/examples.txt
