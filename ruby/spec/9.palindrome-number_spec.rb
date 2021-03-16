@@ -33,7 +33,7 @@ RSpec.describe "Probrem 9" do
     expect(is_palindrome(111)).to eq(true)
   end
 
-  it "x=0 then return=false" do
-    expect(is_palindrome(0)).to eq(false)
+  it "x=0 then return=true" do
+    expect(is_palindrome(0)).to eq(true)
   end
 end

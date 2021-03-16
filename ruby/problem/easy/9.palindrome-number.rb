@@ -10,9 +10,8 @@
 def is_palindrome(x)
   # 計算せずに即返却
   # - 負数の場合
-  # - 0の場合
   # - 最後が10の場合
-  return false if x < 0 || x == 0 || x % 10 == 0
+  return false if x < 0 || (x != 0 && x % 10 == 0)
 
   ch = x.to_s.chars
   ch.each_with_index {|s, i|
