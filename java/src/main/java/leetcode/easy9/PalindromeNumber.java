@@ -12,8 +12,10 @@ class Solution {
         // 計算せずに即返却
         // - 負数の場合
         // - 最後が10の場合
-        if (x < 0 || (x != 0 && x % 10 == 0)) {
+        if (x < 0) {
             return false;
+        } else if (x < 10) {
+            return true;
         }
 
         char[] ch = String.valueOf(x).toCharArray();
